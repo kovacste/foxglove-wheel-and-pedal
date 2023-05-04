@@ -23,7 +23,7 @@ type VehicleStatusMessage = {
   light: number;
 }
 
-function initTurtlePanel(panelContext: PanelExtensionContext) {
+function initPanel(panelContext: PanelExtensionContext) {
   const panelDiv = document.createElement("div");
   panelDiv.style.margin = "auto";
   panelDiv.style.display = "flex";
@@ -72,4 +72,4 @@ function initTurtlePanel(panelContext: PanelExtensionContext) {
   };
 }
 
-export { initTurtlePanel };
+export { initPanel };

@@ -1,6 +1,6 @@
 import { ExtensionContext } from "@foxglove/studio";
-import { initTurtlePanel } from "./ControlsPanel";
+import { initPanel } from "./ControlsPanel";
 
 export function activate(extensionContext: ExtensionContext): void {
-  extensionContext.registerPanel({ name: "example-panel", initPanel: initTurtlePanel });
+  extensionContext.registerPanel({ name: "example-panel", initPanel: initPanel });
 }
